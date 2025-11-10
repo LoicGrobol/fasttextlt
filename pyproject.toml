@@ -16,7 +16,7 @@ version = "0.2.0"
 [dependency-groups]
 ci = ["pytest-github-actions-annotate-failures",]
 parity-tests = ["fasttext-numpy2",  {include-group = "tests"}]
-tests = ["hypothesis >= 6.0, < 7.0", "pytest >= 7.0 , < 9.0"]
+tests = ["hypothesis >= 6.0, < 7.0", "pytest >= 7.0, < 10.0"]
 
 [project.readme]
 file = "README.md"
